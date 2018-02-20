@@ -16,6 +16,8 @@ This program was compiled in the Arduino IDE, so if you're using `PlatformIO` pa
 #include <Arduino.h>
 ```
 
+This example uses the [NodeJoy Library](https://github.com/sisyn/nodejoy) to conveniently fetch the device's WiFi MAC address as a `String` but you can remove that line if you don't need it and then you can remove the `<NodeJoy.h>` directive.
+
 ### ReactJS
 This is just a front-end sample of how you could setup a Socket.io client server. There are many, better examples available online, so I would suggest scraping this for an example that suits your project.
 
